@@ -48,7 +48,8 @@ for i in contacts:
 
 	#pressing send
 	time.sleep(3)
-	send=driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div/div[3]/div/div/div/div[1]/div[1]/div[2]/div/div/div/div/div/div[1]/div[2]/div/div/div[2]/div/span[2]/div')
+	send=driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div/div[3]/div/div/div/div[1]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div/div/div[2]/div/span[2]')
+	
 	send.click()
 
 
